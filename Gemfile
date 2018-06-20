@@ -4,9 +4,13 @@ gemspec
 
 gem 'bootsnap', require: false
 
-gem 'spina-upgrade', git: 'https://github.com/SpinaCMS/spina-upgrade'
+# gem 'spina-upgrade', git: 'https://github.com/SpinaCMS/spina-upgrade'
 
 gem 'pg'
+
+gem "activestorage"
+
+gem 'spina-upgrade', git: 'https://github.com/SpinaCMS/spina-upgrade'
 
 group :development, :test do
   gem 'rails-controller-testing'

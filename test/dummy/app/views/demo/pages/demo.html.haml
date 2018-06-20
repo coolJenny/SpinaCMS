@@ -9,7 +9,7 @@
 %h5 Image
 
 %p
-  = image_tag main_app.url_for(content(:image).variant(resize: "200x200")), width: 100
+  = image_tag main_app.url_for(content(:image).variant(resize: "200x200")), width: 100 if content(:image)
 
 %h5 Image collection
 

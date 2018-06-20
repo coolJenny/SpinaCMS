@@ -273,6 +273,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activestorage
   bootsnap
   codeclimate-test-reporter (~> 1.0.0)
   factory_bot
