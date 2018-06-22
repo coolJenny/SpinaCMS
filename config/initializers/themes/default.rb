@@ -7,12 +7,16 @@
     name:           'text',
     title:          'Text',
     partable_type:  'Spina::Text'
+  }, {
+    name: 'portfolio',
+    title: 'Portfolio',
+    partable_type: 'Spina::Text'
   }]
 
   theme.view_templates = [{
     name:       'homepage',
     title:      'Homepage',
-    page_parts: ['text']
+    page_parts: ['text', 'portfolio']
   }, {
     name: 'show',
     title:        'Default',
