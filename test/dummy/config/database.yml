@@ -17,3 +17,9 @@ development:
 test:
   <<: *default
   database: spina_test
+
+production:
+  <<: *default
+  username: paekho
+  password: 
+  database: spina_production
